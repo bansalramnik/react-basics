@@ -3,7 +3,7 @@ import React from "react";
 const ErrorLayout = props => {
   return (
     <div>
-      <em>{props.children}</em>
+      <p className="add-option-error">{props.children}</p>
     </div>
   );
 };
